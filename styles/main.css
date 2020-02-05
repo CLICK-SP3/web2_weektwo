@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    background-color: #5a5a5a;
+	}
+
+#container	{
+			width:1280px;
+			height:800px;
+			margin:0 auto;	
+			}
+
+#topbox1    {
+			font-family: "serif";
+			width:100%;
+			background-image: url("assets/top_banner_index.png");
+			background-repeat: no-repeat;
+			height:100
+				px;
+			margin-bottom: 20px;
+			}
+
+#navbutton	{
+			font-family: Arial, "sans-serif";
+			font-size:1.1em;
+			padding-top:40px;
+			text-align:right;
+			color: #FAFAFA;
+			margin-right: 30px;
+			}
+
+
+			
+h1			{
+			font-family:"serif";
+			
+			}
+			
+			
+header		{
+			width:100%;
+			height:100px;
+			margin-bottom: 0px; 
+			}
+				
+
+			
+body        {
+			background-image:url("assets/pattern_05.gif");
+			image-repeat:repeat;
+			width: 100%;
+			height:100%;
+			}
+			
+footer		{
+			width:100%;
+			font-size: 15px;
+			background-color:#000066;
+			text-align: center;
+			padding-top: 15px;
+			margin-top:20px;
+			height:125px;
+			clear:both;
+			}
