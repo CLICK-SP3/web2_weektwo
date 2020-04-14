@@ -1,64 +1,84 @@
-@charset "UTF-8";
-*{
-    box-sizing: border-box;
-    background-color: #5a5a5a;
+body	{
+	background-color:#f3eceb;
+	margin: 0;
+	padding: 0;
 	}
 
-#container	{
-			width:1280px;
-			height:800px;
-			margin:0 auto;	
-			}
+h1	{
+	margin: 0;
+	padding-bottom: 18px;
+	display: inline-block;
+	}
+header	{
+	widows: 414px;
+	height:100px;
+	margin-bottom: 0px; 
+	background-color: #4e4b4b;
+	}
+nav	{
+	text-decoration: none;
+	background-color: white;
+	font-size: 18px;
+	padding-top: 4px;	
+	color: black;
+	text-align: center;
+	height:54px;
+	font-family: Arial, Helvetica, sans-serif;
+	}						
+p 	{
+	color: black;
+}			
+footer	{
+	font-size: 14px;
+	padding: .05em;
+	background-color:  #343434;
+	text-align: center;
+	height:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+ul	{
+	text-decoration: none;
+	}
 
-#topbox1    {
-			font-family: "serif";
-			width:100%;
-			background-image: url("assets/top_banner_index.png");
-			background-repeat: no-repeat;
-			height:100
-				px;
-			margin-bottom: 20px;
-			}
+	.box	{
+	margin: 12px 14px;
+	}
+.hero	{
+	width: 414px;
+	height: 200px;
+	margin-bottom: -5px;
+	}
+.list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	}
+.logo	{
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 8px;
+	}
+.title {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 20pt;
+	}
+.text	{
+	background-color: white;
+	font-size: 18px;
+	margin-top: 0px;
+	padding-top: 20px;	
+	color: black;
+	text-align: center;
+	height:130px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.white	{
+	color: white;
+	margin: 8px;
 
-#navbutton	{
-			font-family: Arial, "sans-serif";
-			font-size:1.1em;
-			padding-top:40px;
-			text-align:right;
-			color: #FAFAFA;
-			margin-right: 30px;
-			}
-
-
-			
-h1			{
-			font-family:"serif";
-			
-			}
-			
-			
-header		{
-			width:100%;
-			height:100px;
-			margin-bottom: 0px; 
-			}
-				
-
-			
-body        {
-			background-image:url("assets/pattern_05.gif");
-			image-repeat:repeat;
-			width: 100%;
-			height:100%;
-			}
-			
-footer		{
-			width:100%;
-			font-size: 15px;
-			background-color:#000066;
-			text-align: center;
-			padding-top: 15px;
-			margin-top:20px;
-			height:125px;
-			clear:both;
-			}
+	}
